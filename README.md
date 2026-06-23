@@ -6,7 +6,7 @@ About
 
 This project recreates the classic arcade experience with an Atari-inspired visual style.
 
-Features include:
+Features
 
 * Classic Space Invaders gameplay
 * Enemy formations and descending waves
@@ -16,44 +16,42 @@ Features include:
 * CRT-inspired visual effects
 * High score tracking
 
-What Is In This Repository?
+Main Game File
 
-This GitHub repository contains the game’s source code.
-
-The main game file is:
+The primary game source file is:
 
 space_invaders_atari.py
 
-Developers can view, learn from, modify, and contribute to the source code.
+Requirements
+
+* Python 3
+* Pygame
 
 Downloading The Project
 
 To download the source code:
 
 git clone https://github.com/Bill-Viking/Space-Invaders-Game.git
+cd Space-Invaders-Game
 
 Or click the green Code button on GitHub and select Download ZIP.
 
 Running The Game
 
+After downloading the project, run it for your operating system.
+
 macOS
 
-git clone https://github.com/Bill-Viking/Space-Invaders-Game.git
-cd Space-Invaders-Game
 python3 -m pip install pygame
 python3 space_invaders_atari.py
 
 Windows
 
-git clone https://github.com/Bill-Viking/Space-Invaders-Game.git
-cd Space-Invaders-Game
 python -m pip install pygame
 python space_invaders_atari.py
 
 Linux
 
-git clone https://github.com/Bill-Viking/Space-Invaders-Game.git
-cd Space-Invaders-Game
 python3 -m pip install pygame
 python3 space_invaders_atari.py
 
@@ -64,22 +62,8 @@ Controls
 * Space Bar — Fire
 * Esc — Quit
 
-About GitHub
+Project Status
 
-Think of GitHub as the project’s online home.
+This is a playable retro Space Invaders game inspired by classic Atari-era arcade titles.
 
-* Your computer contains your working copy.
-* Git tracks changes over time.
-* GitHub stores a backup and history of every version.
-
-Each time the game is improved:
-
-git add .
-git commit -m "Describe changes"
-git push
-
-The updated version is then available on GitHub.
-
-Future Releases
-
-Pre-built versions for macOS, Windows, and Linux may be provided through GitHub Releases so players can download and play without installing Python.
+Future updates may include gameplay improvements, additional effects, and downloadable releases for multiple platforms.
